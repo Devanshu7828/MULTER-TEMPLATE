@@ -1,0 +1,10 @@
+<div class="container">
+  <% items.forEach(function(image) { %>
+  <div class="card" style="width: 18rem">
+    <img src="../uploads/<%= image.fileName %> " alt="" srcset="" />
+    <div class="card-body">
+      <p class="card-text"><%= image.fileName %></p>
+    </div>
+  </div>
+  <% }) %>
+</div>
